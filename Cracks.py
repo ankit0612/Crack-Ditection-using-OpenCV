@@ -7,7 +7,7 @@ import cv2
 
 crack_cascade = cv2.CascadeClassifier('CRACKS.xml')
 
-img = cv2.imread('013.jpg')
+img = cv2.imread('crack.jpg')
 
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
